@@ -9,12 +9,6 @@ over the local network.
 > **v1.2.0 recommended**). The stock firmware cannot report its state, so the integration
 > refuses to set up a receiver that runs it.
 
-> [!WARNING]
-> Unofficial, hobby project, **not** affiliated with or supported by Harman Kardon. Provided
-> **"as is", without warranty of any kind**; you use it **at your own risk**. It has been
-> tested on a single receiver. Installing the custom firmware it requires can damage your
-> device: read that project's disclaimer first.
-
 > [!NOTE]
 > **This project is 100% vibe-coded**: it was produced by an AI coding assistant, steered by
 > the owner and checked against one real receiver.
