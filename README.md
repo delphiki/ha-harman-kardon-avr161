@@ -1,5 +1,7 @@
 # Harman Kardon AVR 161 for Home Assistant
 
+[![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-D97757)](https://claude.com/claude-code)
+
 A Home Assistant integration for the **Harman Kardon AVR 161 / AVR 1610** receiver, controlled
 over the local network.
 
