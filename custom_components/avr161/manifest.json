@@ -1,0 +1,12 @@
+{
+  "domain": "avr161",
+  "name": "Harman Kardon AVR 161 (custom firmware)",
+  "codeowners": ["@delphiki"],
+  "config_flow": true,
+  "documentation": "https://github.com/delphiki/ha-harman-kardon-avr161",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/delphiki/ha-harman-kardon-avr161/issues",
+  "requirements": [],
+  "version": "0.6.0"
+}

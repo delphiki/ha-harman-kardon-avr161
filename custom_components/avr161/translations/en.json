@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Harman Kardon AVR 161",
+        "description": "The receiver must be on or in \"Device sleep\", running custom firmware 1.0.4 or later.",
+        "data": {
+          "host": "IP address",
+          "name": "Name",
+          "max_volume_percent": "Maximum volume"
+        },
+        "data_description": {
+          "max_volume_percent": "Share of the receiver's volume range reached when the slider is at 100%. 78% = -10 dB, 89% = 0 dB, 100% = +10 dB."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Receiver unreachable at this address (fully off?).",
+      "no_custom_firmware": "The receiver answers but not to get-status: custom firmware is not installed."
+    },
+    "abort": {
+      "already_configured": "This receiver is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "max_volume_percent": "Maximum volume"
+        },
+        "data_description": {
+          "max_volume_percent": "Share of the receiver's volume range reached when the slider is at 100%. 78% = -10 dB, 89% = 0 dB, 100% = +10 dB."
+        }
+      }
+    }
+  }
+}

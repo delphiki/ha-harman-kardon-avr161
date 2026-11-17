@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Harman Kardon AVR 161",
+        "description": "L'ampli doit être allumé ou en « Device sleep », avec le firmware custom 1.0.4 ou plus récent.",
+        "data": {
+          "host": "Adresse IP",
+          "name": "Nom",
+          "max_volume_percent": "Volume maximal"
+        },
+        "data_description": {
+          "max_volume_percent": "Part de la plage de volume de l'ampli atteinte quand le curseur est à 100 %. 78 % = -10 dB, 89 % = 0 dB, 100 % = +10 dB."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Ampli injoignable à cette adresse (éteint complètement ?).",
+      "no_custom_firmware": "L'ampli répond mais pas à get-status : le firmware custom n'est pas installé."
+    },
+    "abort": {
+      "already_configured": "Cet ampli est déjà configuré."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "max_volume_percent": "Volume maximal"
+        },
+        "data_description": {
+          "max_volume_percent": "Part de la plage de volume de l'ampli atteinte quand le curseur est à 100 %. 78 % = -10 dB, 89 % = 0 dB, 100 % = +10 dB."
+        }
+      }
+    }
+  }
+}
